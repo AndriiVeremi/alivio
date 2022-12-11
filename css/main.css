@@ -268,6 +268,10 @@ a {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -280,7 +284,6 @@ h6 {
 
 /* Base styles */
 .container {
-  outline: 1px dashed crimson;
   width: 1400px;
   padding-left: 15px;
   padding-right: 15px;
@@ -290,7 +293,7 @@ h6 {
 body {
   max-width: 1920px;
   margin: 0 auto;
-  font-family: "Heebo", sans-serif;
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 400;
 }
@@ -315,12 +318,14 @@ img {
   border-radius: 4px;
   color: #ffffff;
   cursor: pointer;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .section-pretitle {
   font-weight: 600;
   font-size: 25px;
-  line-height: 157%;
+  line-height: 1.58;
   color: #424242;
 }
 
@@ -329,8 +334,8 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
-  line-height: 157%;
-  color: #01996D;
+  line-height: 1.58;
+  color: #01996d;
 }
 
 .section-text {
@@ -389,6 +394,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .login-text {
@@ -430,7 +438,7 @@ img {
   color: #484848;
 }
 
-.section-work .container {
+.work .container {
   padding-top: 169px;
   padding-bottom: 255px;
 }
@@ -493,5 +501,58 @@ img {
 }
 
 .steps .section-text {
+  margin-bottom: 60px;
+}
+
+.about {
+  background-color: #245852;
+}
+
+.about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 229px;
+  padding-bottom: 176px;
+}
+
+.about-info {
+  width: 580px;
+  margin-right: 31px;
+}
+
+.about .section-title {
+  color: #ffffff;
+  margin-bottom: 33px;
+}
+
+.about-text {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.56;
+  color: #ffffff;
+  margin-bottom: 57px;
+}
+
+.footer {
+  background-color: #245852;
+}
+
+.footer .container {
+  padding-top: 105px;
+  padding-bottom: 144px;
+}
+
+.footer-logo {
+  margin-bottom: 75px;
+}
+
+.footer-item {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.footer-item:not(:last-child) {
   margin-bottom: 60px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
 /* Base styles */
 
 .container {
-  outline: 1px dashed crimson;
+  // outline: 1px dashed crimson;
   width: 1400px;
   padding-left: 15px;
   padding-right: 15px;
@@ -11,7 +11,7 @@
 body {
   max-width: 1920px;
   margin: 0 auto;
-  font-family: "Heebo", sans-serif;
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 400;
 }
@@ -36,26 +36,28 @@ img {
   border-radius: 4px;
   color: #ffffff;
   cursor: pointer;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .section-pretitle {
-font-weight: 600;
-font-size: 25px;
-line-height: 157%;
-color: #424242;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: calc(79 / 50);
+  color: #424242;
 }
 
 .section-title {
-font-family: 'Georgia';
-font-style: normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 157%;
-color: #01996D;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: calc(79 / 50);
+  color: #01996d;
 }
 
 .section-text {
-font-size: 20px;
-line-height: 31px;
-color: #484848;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
 }

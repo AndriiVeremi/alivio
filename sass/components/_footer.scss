@@ -1,0 +1,22 @@
+.footer {
+  background-color: #245852;
+}
+
+.footer .container {
+  padding-top: 105px;
+  padding-bottom: 144px;
+}
+
+.footer-logo {
+  margin-bottom: 75px;
+}
+
+.footer-item {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
