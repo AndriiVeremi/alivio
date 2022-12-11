@@ -1,0 +1,45 @@
+.header {
+  border-bottom: 1px solid #d6d6d6;
+  & .container {
+    display: flex;
+    align-items: center;
+    height: 85px;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 172px;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #292929;
+  &:not(:last-child) {
+    margin-right: 72px;
+  }
+}
+
+.login-area {
+  display: flex;
+  margin-left: auto;
+}
+
+.login-text {
+  margin-right: 35px;
+  font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+
+

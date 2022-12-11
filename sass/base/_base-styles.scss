@@ -1,0 +1,28 @@
+/* Base styles */
+
+.container {
+    width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Heebo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
