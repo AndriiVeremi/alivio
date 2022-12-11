@@ -300,7 +300,6 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 
@@ -407,17 +406,18 @@ img {
 }
 
 .button.top {
+  padding: 13px 50px;
   border: none;
   background-color: rgba(1, 153, 109, 0.5);
 }
 
 .section-hero {
-  background-image: url(/images/BG.jpg);
+  background-image: url(/images/bg.jpg);
 }
 
 .hero {
   padding-top: 175px;
-  padding-bottom: 336px;
+  padding-bottom: 298px;
   width: 440px;
 }
 
@@ -453,7 +453,12 @@ img {
 }
 
 .work-titles {
-  margin-right: 134px;
+  width: 584px;
+  margin-right: 120px;
+}
+
+.work-desckript {
+  width: 671px;
 }
 
 .steps-list {
@@ -479,7 +484,8 @@ img {
 
 .steps-number {
   position: relative;
-  top: 70px;
+  top: 73px;
+  left: 20px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -532,6 +538,43 @@ img {
   line-height: 1.56;
   color: #ffffff;
   margin-bottom: 57px;
+}
+
+.product .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  padding-top: 120px;
+  padding-bottom: 240px;
+}
+
+.product-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-right: 86px;
+  margin-left: 50px;
+}
+.product-img::before {
+  content: " ";
+  position: absolute;
+  left: -70px;
+  bottom: -90px;
+  width: 331px;
+  height: 334px;
+  background-image: url(/images/card.png);
+}
+
+.product-info .section-pretitle {
+  margin-bottom: 10px;
+}
+.product-info .section-title {
+  margin-bottom: 20px;
+}
+.product-info .section-text {
+  margin-bottom: 40px;
 }
 
 .footer {

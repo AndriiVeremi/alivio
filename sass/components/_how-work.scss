@@ -1,6 +1,6 @@
 .work .container {
-    padding-top: 169px;
-    padding-bottom: 255px;
+  padding-top: 169px;
+  padding-bottom: 255px;
 }
 
 .work-info {
@@ -9,7 +9,12 @@
 }
 
 .work-titles {
-  margin-right: 134px;
+  width: 584px;
+  margin-right: 120px;
+}
+
+.work-desckript {
+  width: 671px;
 }
 
 .steps-list {
@@ -31,7 +36,8 @@
 
 .steps-number {
   position: relative;
-  top: 70px;
+  top: 73px;
+  left: 20px;
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;

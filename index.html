@@ -5,18 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&display=swap" rel="stylesheet" />
 
-    <!-- 
-      font-family: 'Heebo', sans-serif;
-    -->
-    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Alivio_D@shuk</title>
   </head>
   <body>
+
     <!-- Шапка сайту -->
 
     <header class="header">
@@ -42,6 +39,7 @@
     </header>
 
     <main>
+
       <!-- Блок Герой -->
 
       <section class="section-hero">
@@ -61,20 +59,18 @@
 
       <section class="work">
         <div class="container">
-          
           <div class="work-info">
-            
             <div class="work-titles">
               <h2 class="section-pretitle">How it works</h2>
               <h3 class="section-title">Understand & Release the stress in 3 steps</h3>
             </div>
-
-            <p class="section-text">
-              Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness,
-              sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide
-              you in how to manage stress.
-            </p>
-
+            <div class="work-desckript">
+              <p class="section-text">
+                Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness,
+                sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and
+                guide you in how to manage stress.
+              </p>
+            </div>
           </div>
 
           <div class="steps">
@@ -111,33 +107,43 @@
         </div>
       </section>
 
+      <!-- Блок про Kayla's -->
+
       <section class="about">
         <div class="container">
           <div class="about-info">
-             <h3 class="section-title">Let's hear about Kayla's success story</h3>
-          <p class="about-text">See how well Alivio works in a real customer’s life.</p>
-          <button class="button">Let’s get started</button>
+            <h3 class="section-title">Let's hear about Kayla's success story</h3>
+            <p class="about-text">See how well Alivio works in a real customer’s life.</p>
+            <button class="button">Let’s get started</button>
           </div>
-         
+
           <div class="about-img">
-            <img src="./images/Video.png" width="700" height="400" alt="Video" />
+            <img src="./images/video.png" width="700" height="400" alt="Video" />
           </div>
         </div>
       </section>
 
-      <section class="section-product">
+      <!-- Блок Product -->
+
+      <section class="product">
         <div class="container">
-          <img src="./images/foto.png" width="638" height="573" alt="Foto" />
-          <h2 class="section-pretitle">Our product</h2>
-          <h3 class="section-title">You tell us your stress, We make your diary</h3>
-          <p class="section-text">
-            Everyone experiences it, and in different ways. Let Alivio guide you, in a personalized journal experience,
-            to overcome your stress.
-          </p>
-          <button class="button" data-modal-open>Find Your Way</button>
+          <div class="product-img">
+            <img class="pro-foto" src="./images/foto.png" width="640" height="574" alt="Foto" />
+          </div>
+          <div class="product-info">
+            <h2 class="section-pretitle">Our product</h2>
+            <h3 class="section-title">You tell us your stress, We make your diary</h3>
+            <p class="section-text">
+              Everyone experiences it, and in different ways. Let Alivio guide you, in a personalized journal
+              experience, to overcome your stress.
+            </p>
+            <button class="button" data-modal-open>Find Your Way</button>
+          </div>
         </div>
       </section>
     </main>
+
+    <!-- Блок Підвал -->
 
     <footer class="footer">
       <div class="container">
@@ -154,5 +160,7 @@
         </ul>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
