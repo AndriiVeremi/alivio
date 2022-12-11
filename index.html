@@ -7,24 +7,18 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Lora:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <!-- 
       font-family: 'Heebo', sans-serif;
-      font-family: 'Lora', serif; 
     -->
     <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Alivio_D@shuk</title>
   </head>
   <body>
-
     <!-- Шапка сайту -->
 
     <header class="header">
@@ -44,13 +38,12 @@
         </nav>
         <div class="login-area">
           <p class="login-text">Sing in</p>
-          <button class="button" data-modal-open>Start Trial</button>
+          <button class="button top" data-modal-open>Start Trial</button>
         </div>
       </div>
     </header>
 
     <main>
-
       <!-- Блок Герой -->
 
       <section class="section-hero">
@@ -70,19 +63,27 @@
 
       <section class="section-work">
         <div class="container">
-          <h2 class="section-pretitle">How it works</h2>
-          <h3 class="section-title">Understand & Release the stress in 3 steps</h3>
-          <p class="section-text">
-            Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness,
-            or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how
-            to manage stress.
-          </p>
+          
+          <div class="work-info">
+            
+            <div class="work-titles">
+              <h2 class="section-pretitle">How it works</h2>
+              <h3 class="section-title">Understand & Release the stress in 3 steps</h3>
+            </div>
+
+            <p class="section-text">
+              Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness,
+              sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide
+              you in how to manage stress.
+            </p>
+
+          </div>
 
           <div class="steps">
             <ul class="steps-list list">
               <li class="steps-item">
                 <span class="steps-number">01</span>
-                <h4>Personalize</h4>
+                <h4 class="steps-title">Personalize</h4>
                 <p class="section-text">
                   Answer a quick survey about how you express yourself, what causes you stress, and what area would you
                   like to work on. This way, we can fully personalize your journal!
@@ -91,7 +92,7 @@
               </li>
               <li class="steps-item">
                 <span class="steps-number">02</span>
-                <h4>Write & Understand</h4>
+                <h4 class="steps-title">Write & Understand</h4>
                 <p class="section-text">
                   Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage
                   your stress!
@@ -100,7 +101,7 @@
               </li>
               <li class="steps-item">
                 <span class="steps-number">03</span>
-                <h4>Alivio</h4>
+                <h4 class="steps-title">Alivio</h4>
                 <p class="section-text">
                   Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for?
                   Alivio today!
@@ -112,12 +113,14 @@
         </div>
       </section>
 
-      <section class="section-video">
+      <section class="section-about">
         <div class="container">
           <h3 class="section-title">Let's hear about Kayla's success story</h3>
-          <p>See how well Alivio works in a real customer’s life.</p>
+          <p class="about-text">See how well Alivio works in a real customer’s life.</p>
           <button class="button">Let’s get started</button>
-          <img src="./images/Video.png" width="895" height="516" alt="Video" />
+          <div class="about-img">
+            <img src="./images/Video.png" width="895" height="516" alt="Video" />
+          </div>
         </div>
       </section>
 

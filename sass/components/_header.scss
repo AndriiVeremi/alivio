@@ -28,6 +28,9 @@
   &:not(:last-child) {
     margin-right: 72px;
   }
+  &:hover {
+    color: #01996d;
+  }
 }
 
 .login-area {
@@ -38,8 +41,11 @@
 .login-text {
   margin-right: 35px;
   font-size: 20px;
-line-height: 24px;
-color: #000000;
+  line-height: 24px;
+  color: #000000;
 }
 
-
+.button.top {
+  border: none;
+  background-color: rgba(1, 153, 109, 0.5);
+}

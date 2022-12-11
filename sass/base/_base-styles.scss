@@ -1,16 +1,17 @@
 /* Base styles */
 
 .container {
-    width: 1400px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+  outline: 1px dashed crimson;
+  width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 body {
   max-width: 1920px;
   margin: 0 auto;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -25,4 +26,36 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.button {
+  display: block;
+  padding: 20px 50px;
+  background-color: #01996d;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section-pretitle {
+font-weight: 600;
+font-size: 25px;
+line-height: 157%;
+color: #424242;
+}
+
+.section-title {
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+color: #01996D;
+}
+
+.section-text {
+font-size: 20px;
+line-height: 31px;
+color: #484848;
 }
