@@ -1,5 +1,5 @@
 .footer {
-  background-color: #245852;
+  background-color: $background-green;
 }
 
 .footer .container {
@@ -14,8 +14,8 @@
 .footer-item {
   font-weight: 600;
   font-size: 25px;
-  line-height: 30px;
-  color: #ffffff;
+  line-height: calc(30 / 25);
+  color: $white-color;
   &:not(:last-child) {
     margin-bottom: 60px;
   }

@@ -13,7 +13,6 @@
     <title>Alivio_D@shuk</title>
   </head>
   <body>
-
     <!-- Шапка сайту -->
 
     <header class="header">
@@ -33,13 +32,12 @@
         </nav>
         <div class="login-area">
           <p class="login-text">Sing in</p>
-          <button class="button top" data-modal-open>Start Trial</button>
+          <button class="button top" data-modal-open >Start Trial</button>
         </div>
       </div>
     </header>
 
     <main>
-
       <!-- Блок Герой -->
 
       <section class="section-hero">
@@ -50,7 +48,7 @@
               Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience,
               to overcome your stress.
             </p>
-            <button class="button" data-modal-open>Find Your Way</button>
+             <button class="button" data-modal-open >Find Your Way</button>
           </div>
         </div>
       </section>
@@ -82,7 +80,15 @@
                   Answer a quick survey about how you express yourself, what causes you stress, and what area would you
                   like to work on. This way, we can fully personalize your journal!
                 </p>
-                <img src="./images/step1.jpg" width="390" height="492" alt="Step_1" />
+                <div class="steps-img">
+                  <img
+                  srcset="./images/step1.jpg 1x, ./images/step1@2x.jpg 2x"
+                  src="./images/step1.jpg"
+                  width="390"
+                  height="492"
+                  alt="Step_1"
+                />
+                </div>
               </li>
               <li class="steps-item">
                 <span class="steps-number">02</span>
@@ -91,7 +97,15 @@
                   Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage
                   your stress!
                 </p>
-                <img src="./images/step2.jpg" width="390" height="492" alt="Step_2" />
+                <div class="steps-img">
+                  <img
+                  srcset="./images/step2.jpg 1x, ./images/step2@2x.jpg 2x"
+                  src="./images/step2.jpg"
+                  width="390"
+                  height="492"
+                  alt="Step_2"
+                />
+                </div>
               </li>
               <li class="steps-item">
                 <span class="steps-number">03</span>
@@ -100,7 +114,15 @@
                   Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for?
                   Alivio today!
                 </p>
-                <img src="./images/step3.jpg" width="390" height="492" alt="Step_3" />
+                <div class="steps-img">
+                  <img
+                  srcset="./images/step3.jpg 1x, ./images/step3@2x.jpg 2x"
+                  src="./images/step3.jpg"
+                  width="390"
+                  height="492"
+                  alt="Step_3"
+                />
+                </div>
               </li>
             </ul>
           </div>
@@ -118,7 +140,13 @@
           </div>
 
           <div class="about-img">
-            <img src="./images/video.png" width="700" height="400" alt="Video" />
+            <img
+              srcset="./images/video.png 1x, ./images/video@2x.png 2x"
+              src="./images/video.png"
+              width="700"
+              height="400"
+              alt="Video"
+            />
           </div>
         </div>
       </section>
@@ -128,7 +156,14 @@
       <section class="product">
         <div class="container">
           <div class="product-img">
-            <img class="pro-foto" src="./images/foto.png" width="640" height="574" alt="Foto" />
+            <img
+              class="pro-foto"
+              srcset="./images/foto.png 1x, ./images/foto@2x.png 2x"
+              src="./images/foto.png"
+              width="640"
+              height="574"
+              alt="Foto"
+            />
           </div>
           <div class="product-info">
             <h2 class="section-pretitle">Our product</h2>
@@ -160,6 +195,20 @@
         </ul>
       </div>
     </footer>
+
+    <!-- Mодальне вікно -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" data-modal-close>
+          <svg width="13" height="13" class="modal-close__icon">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Scripts для сайта -->
 
     <script src="./js/modal.js"></script>
   </body>

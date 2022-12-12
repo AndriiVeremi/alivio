@@ -1,5 +1,10 @@
 .section-hero {
   background-image: url(/images/bg.jpg);
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(/images/bg@2x.jpg);
+  }
 }
 
 .hero {
@@ -14,15 +19,13 @@
   font-style: normal;
   font-weight: 700;
   font-size: 65px;
-  line-height: 74px;
-  color: #01996d;
+  line-height: calc(74 / 65);
+  color: $base-green-text;
 }
 
 .hero-text {
   margin-bottom: 53px;
   font-size: 20px;
-  line-height: 31px;
-  color: #484848;
+  line-height: calc(31 / 20);
+  color: $text-color;
 }
-
-

@@ -23,13 +23,14 @@
 .header-item {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  color: #292929;
+  line-height: calc(24 / 20);
+  color: $text-color;
   &:not(:last-child) {
     margin-right: 72px;
   }
-  &:hover {
-    color: #01996d;
+  &:hover,
+  &:focus {
+    color: $base-green-text;
   }
 }
 
@@ -42,8 +43,8 @@
 .login-text {
   margin-right: 35px;
   font-size: 20px;
-  line-height: 24px;
-  color: #000000;
+  line-height: calc(24 / 20);
+  color: $text-color;
 }
 
 .button.top {

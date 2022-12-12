@@ -17,7 +17,7 @@ body {
 
 img {
   display: block;
-  // max-width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -30,20 +30,25 @@ img {
 .button {
   display: block;
   padding: 20px 50px;
-  background-color: #01996d;
-  border: 1px solid #01996d;
+  background-color: $base-green-text;
+  border: 1px solid $base-green-text;
   border-radius: 4px;
-  color: #ffffff;
+  color: $white-color;
   cursor: pointer;
   font-size: 20px;
-  line-height: 25px;
+  line-height: calc(25 / 20);
+  transition: transform 250ms linear;
+  &:hover,
+  &:focus {
+    transform: scale(1.02);  
+  }
 }
 
 .section-pretitle {
   font-weight: 600;
   font-size: 25px;
-  line-height: calc(79 / 50);
-  color: #424242;
+  line-height: calc(79 / 25);
+  color: $text-color;
 }
 
 .section-title {
@@ -52,11 +57,11 @@ img {
   font-weight: 700;
   font-size: 50px;
   line-height: calc(79 / 50);
-  color: #01996d;
+  color: $base-green-text;
 }
 
 .section-text {
   font-size: 20px;
-  line-height: 31px;
-  color: #484848;
+  line-height: calc(31 / 20);
+  color: $text-color;
 }

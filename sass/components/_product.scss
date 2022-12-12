@@ -7,6 +7,8 @@
 
 .product-img {
   display: flex;
+  width: 100%;
+  height: 100%;
   position: relative;
   margin-right: 86px;
   margin-left: 50px;
@@ -18,6 +20,11 @@
     width: 331px;
     height: 334px;
     background-image: url(/images/card.png);
+    background-size: cover;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(/images/card@2x.png);
+    }
   }
 }
 

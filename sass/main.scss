@@ -1,9 +1,12 @@
 @import "./base/normalize";
 @import "./base/reset-styles";
+@import "./utils/vars";
 @import "./base/base-styles";
+@import "./components/modal";
 @import "./components/header";
 @import "./components/hero";
 @import "./components/how-work";
 @import "./components/about";
 @import "./components/product";
 @import "./components/footer";
+

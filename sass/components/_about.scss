@@ -1,5 +1,5 @@
 .about {
-  background-color: #245852;
+  background-color: $background-green;
 }
 
 .about .container {
@@ -14,7 +14,7 @@
 }
 
 .about .section-title {
-  color: #ffffff;
+  color: $white-color;
   margin-bottom: 33px;
 }
 
@@ -22,7 +22,7 @@
   font-weight: 600;
   font-size: 25px;
   line-height: calc(39 / 25);
-  color: #ffffff;
+  color: $white-color;
   margin-bottom: 57px;
 }
 
