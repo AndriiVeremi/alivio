@@ -21,13 +21,20 @@
 }
 
 .header-item {
+   &:active {
+    transform: scale(0.9); 
+  }
+}
+
+.header-item:not(:last-child) {
+    margin-right: 72px;
+  }
+
+.header-link {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
   color: $text-color;
-  &:not(:last-child) {
-    margin-right: 72px;
-  }
   &:hover,
   &:focus {
     color: $base-green-text;
