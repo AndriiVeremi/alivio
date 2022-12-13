@@ -668,7 +668,7 @@ img {
   margin-bottom: 75px;
 }
 
-.footer_item:not(:last-child) {
+.footer-item:not(:last-child) {
   margin-bottom: 60px;
 }
 
